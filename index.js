@@ -18,7 +18,7 @@ function getData(){
 function Joke(error, response, body){
     var joke = body.value;
     var firstNames = ['Chuck','chuck','chuck.','Chuck.','Chuck!','chuck!'];
-    var lastNames = ['Norris','norris','norris.','Norris.','Norris!','norris!'];  
+    var lastNames = ['Norris','norris','norris.','Norris.','Norris!','norris!',"Noriss'","noriss","Noriss'",'Noris','noris'];  
     var altOne = wordInString(joke, firstNames,'Zlatan');
     var altTwo = wordInString(altOne, lastNames,'Ibrahimovic');
     var altThree = wordInString(altTwo,["Chucks's","chucks's"],"Zlatans's");
