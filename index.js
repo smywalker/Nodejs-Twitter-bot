@@ -5,7 +5,7 @@ var config = require('./config');
 var T = new twit(config);
 
 getData();
-setInterval(getData, 1000*60);
+setInterval(getData, 1000*60*60);
 
 //Get the joke.
 function getData(){
